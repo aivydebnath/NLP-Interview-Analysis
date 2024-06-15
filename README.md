@@ -4,7 +4,7 @@
 As part of the hiring process for a specialized data science role within our organization, interviewed candidates with varying backgrounds across different domains. Yet, all share significant experience in data science. The objective was to assess their qualifications and suitability for the specific requirements of the role.
 
 ## Context:
-In our pursuit to fill a critical data science position, candidates with a proven track record in data analysis, machine learning, and statistical modeling. Recognizing the interdisciplinary nature of data science, we welcomed applicants from diverse fields such as:
+<I>In our pursuit to fill a critical data science position, candidates with a proven track record in data analysis, machine learning, and statistical modeling. Recognizing the interdisciplinary nature of data science, we welcomed applicants from diverse fields such as:
 
 Finance
 Healthcare
@@ -14,7 +14,7 @@ Academia
 Insurance
 Automotive
 Entertainment
-Real Estate
+Real Estate</I>
 
 ## Data:
 
@@ -43,9 +43,7 @@ I have used TextBlob for sentiment analysis and Spacy for keyphrase extraction.
 
             The script evaluates the relevance of key phrases by comparing extracted phrases to a predefined set of relevant key phrases related to data science and   machine learning.
             The relevance score is calculated as the proportion of relevant key phrases found in the response.
-
             An overall quality score is computed by combining the sentiment score and the relevance score.
-   
             Based on the quality score, each response is classified into one of four categories: "Excellent," "Good," "Fair," or "Poor".
 
 ## Output:
