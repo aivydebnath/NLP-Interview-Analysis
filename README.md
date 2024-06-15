@@ -44,7 +44,7 @@ Real Estate</I>
             The script evaluates the relevance of key phrases by comparing extracted phrases to a predefined set of relevant key phrases related to data science and   machine learning.
             The relevance score is calculated as the proportion of relevant key phrases found in the response.
             An overall quality score is computed by combining the sentiment score and the relevance score.
-            Based on the quality score, each response is classified into one of four categories: "Excellent," "Good," "Fair," or "Poor".</I>
+            Based on the quality score, each response is classified into one of four categories: "Excellent," "Good," "Fair," or "Poor".
 
 ## Output:
 
