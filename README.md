@@ -33,18 +33,16 @@ I have used TextBlob for sentiment analysis and Spacy for keyphrase extraction.
 2. Sentiment Analysis:
 
             The analyze_sentiment function uses TextBlob to determine the sentiment of each candidate's response.
-
-         It classifies the sentiment as "Positive," "Negative," or       "Neutral," and assigns a corresponding sentiment score (1 for positive, -1 for negative, 0 for neutral).
+            It classifies the sentiment as "Positive," "Negative," or "Neutral," and assigns a corresponding sentiment score (1 for positive, -1 for negative, 0 for neutral).
 
 3. Key Phrase Extraction:
 
-            The extract_key_phrases function uses spaCy to extract key phrases (noun chunks) from each response. These key phrases are then converted to lowercase for            consistency.
+            The extract_key_phrases function uses spaCy to extract key phrases (noun chunks) from each response. These key phrases are then converted to lowercase for consistency.
    
 4. Quality Assessment:
 
-            The script evaluates the relevance of key phrases by comparing extracted phrases to a predefined set of relevant key phrases related to data science and    
-       machine learning.
-               The relevance score is calculated as the proportion of relevant key phrases found in the response.
+            The script evaluates the relevance of key phrases by comparing extracted phrases to a predefined set of relevant key phrases related to data science and   machine learning.
+            The relevance score is calculated as the proportion of relevant key phrases found in the response.
 
             An overall quality score is computed by combining the sentiment score and the relevance score.
    
