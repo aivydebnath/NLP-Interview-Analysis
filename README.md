@@ -27,7 +27,7 @@ I have used TextBlob for sentiment analysis and Spacy for keyphrase extraction.
 1. Reading the Transcript:
 
             The read_interview_responses function reads the entire content of a text file containing the interview responses and returns it as a single string.
-   
+
             Splitting and Processing Responses: The process_interview_responses function splits the transcript into individual responses using a regular expression. Each response is then further processed to extract the candidate information and their detailed response.
    
 2. Sentiment Analysis:
@@ -46,7 +46,7 @@ I have used TextBlob for sentiment analysis and Spacy for keyphrase extraction.
        machine learning.
                The relevance score is calculated as the proportion of relevant key phrases found in the response.
 
-               An overall quality score is computed by combining the sentiment score and the relevance score.
+            An overall quality score is computed by combining the sentiment score and the relevance score.
    
             Based on the quality score, each response is classified into one of four categories: "Excellent," "Good," "Fair," or "Poor".
 
