@@ -41,7 +41,7 @@ I have used TextBlob for sentiment analysis and Spacy for keyphrase extraction.
    
 4. Quality Assessment:
 
-      <b> The script evaluates the relevance of key phrases by comparing extracted phrases to a predefined set of relevant key phrases related to data science and               machine learning. </b>
+      <ul> The script evaluates the relevance of key phrases by comparing extracted phrases to a predefined set of relevant key phrases related to data science and               machine learning.</ul>
       The relevance score is calculated as the proportion of relevant key phrases found in the response.
       An overall quality score is computed by combining the sentiment score and the relevance score.
       Based on the quality score, each response is classified into one of four categories: "Excellent," "Good," "Fair," or "Poor."
